@@ -1,0 +1,11 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_charybdis_mini: physical_layout_charybdis_mini {
+        compatible = "zmk,physical-layout";
+        display-name = "charybdis_mini";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0    0       0     0     0>
+            ;
+    };
+};
